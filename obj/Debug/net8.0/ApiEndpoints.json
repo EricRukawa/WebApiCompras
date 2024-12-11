@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "WebApiCompras.Controllers.PedidosController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Pedidos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "WebApiCompras.Models.Orden",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiCompras.Controllers.ProductoController",
+    "Method": "GetProducto",
+    "RelativePath": "api/Producto/{Producto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Producto",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiCompras.Controllers.ProductoController",
+    "Method": "GetProducts",
+    "RelativePath": "api/Producto/articulos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
